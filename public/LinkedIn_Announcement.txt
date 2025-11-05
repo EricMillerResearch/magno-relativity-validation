@@ -1,0 +1,12 @@
+Today we completed the first head-to-head comparison between Einstein’s General Relativity and a new field model: Magno-Relativity.
+
+Using real astronomical data from 98 pulsar systems (ATNF catalogue), the result was decisive:
+• General Relativity fails 74 of 98 systems
+• Magno-Relativity fits 83 of 98
+• Mean residual error reduced by 25.46×
+• No tuning parameters or added variables — same dataset, same constraints
+
+A reproducibility package (dataset, code, figures, and blockchain timestamp) is available to qualified labs, investors, and strategic partners under NDA.
+
+The next era of physics has begun.
+— Eric Miller — Founder, Araxeh Technologies

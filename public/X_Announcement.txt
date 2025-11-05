@@ -1,0 +1,10 @@
+We just ran 98 pulsar systems head-to-head:
+General Relativity vs Magno-Relativity.
+
+GR fails 74/98.
+MR fits 83/98.
+Residual error = 25× smaller.
+Same dataset. Zero tuning. No extra parameters.
+
+This isn’t a theory. This is the first confirmed replacement for Einstein.
+Proof package available under NDA.

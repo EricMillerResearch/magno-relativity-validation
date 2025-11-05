@@ -1,0 +1,3 @@
+Araxeh Technologies — Public Science Release License
+
+This package is provided for informational purposes only. Redistribution permitted only in full, with attribution to Eric Miller and Araxeh Technologies. Reverse engineering and derivative works prohibited without written permission.
