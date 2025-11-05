@@ -1,0 +1,31 @@
+name: Publish Release (attach public zip)
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release tag (e.g., v2025-11-04)'
+        required: true
+  push:
+    tags:
+      - 'v*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Ensure artifacts exist
+        run: |
+          test -f artifacts/Araxeh_MR_Public_Release_2025-11-04.zip
+      - name: Create/Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          name: Araxeh Release — ${{ github.event.inputs.tag || github.ref_name }}
+          draft: false
+          prerelease: false
+      - name: Upload Public Kit
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag || github.ref_name }}
+          files: artifacts/Araxeh_MR_Public_Release_2025-11-04.zip
